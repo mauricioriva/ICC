@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <SCRIPT src="https://java.com/js/dtjava.js"></SCRIPT><script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'SistemaSolar.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48am5scCBzcGVjPSIxLjAiIHhtbG5zOmpmeD0iaHR0cDovL2phdmFmeC5jb20iIGhyZWY9IlNpc3RlbWFTb2xhci5qbmxwIj4KICAgIDxpbmZvcm1hdGlvbj4KICAgICAgICA8dGl0bGU+U2lzdGVtYSBTb2xhcjwvdGl0bGU+CiAgICAgICAgPHZlbmRvcj5GYWN1bHRhZCBkZSBDaWVuY2lhcywgVU5BTTwvdmVuZG9yPgogICAgICAgIDxkZXNjcmlwdGlvbj5ub25lPC9kZXNjcmlwdGlvbj4KICAgICAgICA8b2ZmbGluZS1hbGxvd2VkLz4KICAgIDwvaW5mb3JtYXRpb24+CiAgICA8dXBkYXRlIGNoZWNrPSJiYWNrZ3JvdW5kIi8+CiAgICA8cmVzb3VyY2VzPgogICAgICAgIDxqMnNlIHZlcnNpb249IjEwLjAuMisiIGhyZWY9Imh0dHA6Ly9qYXZhLnN1bi5jb20vcHJvZHVjdHMvYXV0b2RsL2oyc2UiLz4KICAgICAgICA8amFyIGhyZWY9IlNpc3RlbWFTb2xhci5qYXIiIHNpemU9IjgyMTIiIGRvd25sb2FkPSJlYWdlciIvPgogICAgPC9yZXNvdXJjZXM+CiAgICA8amZ4OmphdmFmeC1kZXNjIHdpZHRoPSIzMDAiIGhlaWdodD0iMjUwIiBtYWluLWNsYXNzPSJzaXN0ZW1hc29sYXIuU2lzdGVtYVNvbGFyIiBuYW1lPSJTaXN0ZW1hU29sYXIiLz4KPC9qbmxwPgoK'
+            },
+            {
+                javafx : '10.0.2+'
+            },
+            {}
+        );
+        return false;
+    }
+</script><script>
+    function javafxEmbedsistemasolar() {
+        dtjava.embed(
+            {
+                id : 'sistemasolar',
+                url : 'SistemaSolar.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '300',
+                height : '250',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48am5scCBzcGVjPSIxLjAiIHhtbG5zOmpmeD0iaHR0cDovL2phdmFmeC5jb20iIGhyZWY9IlNpc3RlbWFTb2xhci5qbmxwIj4KICAgIDxpbmZvcm1hdGlvbj4KICAgICAgICA8dGl0bGU+U2lzdGVtYSBTb2xhcjwvdGl0bGU+CiAgICAgICAgPHZlbmRvcj5GYWN1bHRhZCBkZSBDaWVuY2lhcywgVU5BTTwvdmVuZG9yPgogICAgICAgIDxkZXNjcmlwdGlvbj5ub25lPC9kZXNjcmlwdGlvbj4KICAgICAgICA8b2ZmbGluZS1hbGxvd2VkLz4KICAgIDwvaW5mb3JtYXRpb24+CiAgICA8dXBkYXRlIGNoZWNrPSJiYWNrZ3JvdW5kIi8+CiAgICA8cmVzb3VyY2VzPgogICAgICAgIDxqMnNlIHZlcnNpb249IjEwLjAuMisiIGhyZWY9Imh0dHA6Ly9qYXZhLnN1bi5jb20vcHJvZHVjdHMvYXV0b2RsL2oyc2UiLz4KICAgICAgICA8amFyIGhyZWY9IlNpc3RlbWFTb2xhci5qYXIiIHNpemU9IjgyMTIiIGRvd25sb2FkPSJlYWdlciIvPgogICAgPC9yZXNvdXJjZXM+CiAgICA8amZ4OmphdmFmeC1kZXNjIHdpZHRoPSIzMDAiIGhlaWdodD0iMjUwIiBtYWluLWNsYXNzPSJzaXN0ZW1hc29sYXIuU2lzdGVtYVNvbGFyIiBuYW1lPSJTaXN0ZW1hU29sYXIiLz4KPC9qbmxwPgoK'
+            },
+            {
+                javafx : '10.0.2+'
+            },
+            {}
+        );
+    }
+    
+            <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedsistemasolar);
+</script>
+    </head>
+    <body>
+        <h2>
+            Test page for <b>SistemaSolar</b>
+        </h2>
+        <b>Webstart:</b><a href="SistemaSolar.jnlp" onclick="return launchApplication('SistemaSolar.jnlp');">click to launch this app as webstart</a>
+        <br>
+        <hr>
+        <br>
+        
+        <!-- Applet will be inserted here -->
+        <div id="javafx-app-placeholder"></div>
+    </body>
+</html>

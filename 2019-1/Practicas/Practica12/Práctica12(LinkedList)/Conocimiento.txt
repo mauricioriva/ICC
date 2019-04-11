@@ -1,0 +1,22 @@
+Actividad 12.1
+¿De qué clase es instancia el objeto out? De PrintStream.
+¿Cuántas veces está sobrecargado el método println, da algunos ejemplos? 10 veces con PrintStream.
+
+out
+
+	public static final PrintStream out
+
+The "standard" output stream. This stream is already open and ready to accept output data. Typically this stream corresponds to display output or another output destination specified by the host environment or user.
+
+For simple stand-alone Java applications, a typical way to write a line of output data is:
+
+         System.out.println(data)
+     
+
+See the println methods in class PrintStream.
+
+
+PrintStream.println(), PrintStream.println(boolean), PrintStream.println(char), PrintStream.println(char[]), PrintStream.println(double), PrintStream.println(float), PrintStream.println(int), PrintStream.println(long), PrintStream.println(java.lang.Object), PrintStream.println(java.lang.String)
+
+Actividad 12.2
+Porque se representan de diferente manera en ceros y unos, no es la misma cantidad de bits al representar un cadena que un booleano.

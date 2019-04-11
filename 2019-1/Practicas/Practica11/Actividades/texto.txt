@@ -1,0 +1,9 @@
+
+	Hola, este es mi primer programa
+		para imprimir desde un archivo de texto.
+		
+	4 + 1 = 5
+	
+	P v Q
+	
+	Mauricio Riva
