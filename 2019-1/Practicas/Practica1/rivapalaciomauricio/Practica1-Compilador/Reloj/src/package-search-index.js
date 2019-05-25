@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"icc.practica1"}]

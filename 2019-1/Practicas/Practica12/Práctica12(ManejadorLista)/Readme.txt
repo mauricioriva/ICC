@@ -3,8 +3,6 @@ Práctica 12 Recursividad - Máquina de cambio
 
 Mauricio Riva Palacio Orozco
 
-No. Cuenta 316666343
-
 Para poder correr el programa se debe de abrir una terminal y ubicarse dentro de la carpeta rivapalacioomauricio12 e ingresar el comando ]$ ant run
 
 El programa hace lo siguiente:

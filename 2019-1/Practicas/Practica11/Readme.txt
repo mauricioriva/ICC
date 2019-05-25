@@ -3,8 +3,6 @@ Práctica 11 - Persistencia
 
 Mauricio Riva Palacio Orozco
 
-No. Cuenta 316666343
-
 Para poder correr el programa se debe de abrir una terminal y ubicarse dentro de la carpeta rivapalacioomauricio11 e ingresar el comando $] ant run
 
 El programa te permite guardar tantas bases de datos en archivos .txt como el disco duro tenga capacidad, puedes crear diferentes bases de datos, guardarlas en archivos diferentes, y puedes cargar cada una de ellas por separado, o incluso puedes cargar varios archivos y después guardar todo el contenido en un nuevo archivo.

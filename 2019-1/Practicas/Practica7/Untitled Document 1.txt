@@ -1,7 +1,0 @@
-
-Practica 7 Contactos
-
-int i = RA.compare(RB):
-	si i == 0: RA == RB
-	si i == 1: RA > RB
-	si i == -1: RA < RB

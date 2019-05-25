@@ -3,8 +3,6 @@ Práctica 13 - Arreglos y Estadísticas
 
 Mauricio Riva Palacio Orozco
 
-No. Cuenta 316666343
-
 Para poder correr el programa se debe de abrir una terminal y ubicarse dentro de la carpeta rivapalacioomauricio13 e ingresar el comando ]$ javac icc/estadisticas/*.java
 y después el comando ]$ java icc.estadisticas.UsoEstadisticas nombre_del_archivo
 
